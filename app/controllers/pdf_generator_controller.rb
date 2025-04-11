@@ -50,7 +50,7 @@ class PdfGeneratorController < ApplicationController
     pdf.font_size 12
     pdf.text "Software Engineer", style: :bold
     pdf.font_size 10
-    pdf.text "Codenote IT Solution Pvt Ltd, Jamshedpur, India  |  July 2022 – Present", style: :italic
+    pdf.text "Codenote IT Solution Pvt Ltd, Indore, India  |  July 2023 – Present", style: :italic
     pdf.move_down 5
     pdf.font_size 11
     pdf.text "- Developed 5+ Ruby on Rails apps, serving 10+ users with 99.9% uptime."
@@ -62,7 +62,7 @@ class PdfGeneratorController < ApplicationController
     pdf.font_size 12
     pdf.text "Junior Software Developer (Promoted from Intern)", style: :bold
     pdf.font_size 10
-    pdf.text "Codenote IT Solution Pvt Ltd, Jamshedpur, India  |  April 2021 – June 2022", style: :italic
+    pdf.text "Codenote IT Solution Pvt Ltd, Indore, India  |  April 2022 – June 2023", style: :italic
     pdf.move_down 5
     pdf.font_size 11
     pdf.text "- Promoted after 6 months, contributing to 3 Rails projects."
@@ -72,7 +72,7 @@ class PdfGeneratorController < ApplicationController
     pdf.font_size 12
     pdf.text "Software Engineering Intern", style: :bold
     pdf.font_size 10
-    pdf.text "Codenote IT Solution Pvt Ltd, Jamshedpur, India  |  October 2021 – March 2021", style: :italic
+    pdf.text "Codenote IT Solution Pvt Ltd, Indore, India  |  October 2021 – March 2022", style: :italic
     pdf.move_down 5
     pdf.font_size 11
     pdf.text "- Assisted in Rails-based inventory system, adding 5+ features."
@@ -96,7 +96,7 @@ class PdfGeneratorController < ApplicationController
     pdf.font_size 12
     pdf.text "Skanska Project (Codenote IT Solution Pvt Ltd, 2023)", style: :bold
     pdf.font_size 11
-    pdf.text "- Led Rails 8 app development with Solid Queue and Turbo Streams for real-time project management."
+    pdf.text "- Led Rails 7 app development with Turbo Streams for real-time project management."
     pdf.text "- Designed REST APIs, reducing manual updates by 30%."
     pdf.text "- Deployed on AWS with PostgreSQL, ensuring 99.8% uptime for 500+ users."
     pdf.move_down 5
